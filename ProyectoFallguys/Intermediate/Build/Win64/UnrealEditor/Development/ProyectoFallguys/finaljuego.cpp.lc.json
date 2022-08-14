@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\xpc\\documents\\unreal projects\\proyectofallguys\\source\\proyectofallguys\\finaljuego.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\xpc\\documents\\unreal projects\\proyectofallguys\\intermediate\\build\\win64\\proyectofallguyseditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\xpc\\documents\\unreal projects\\proyectofallguys\\intermediate\\build\\win64\\unrealeditor\\development\\proyectofallguys\\definitions.proyectofallguys.h",
+            "c:\\users\\xpc\\documents\\unreal projects\\proyectofallguys\\source\\proyectofallguys\\finaljuego.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\engine\\triggerbox.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\engine\\triggerbase.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\triggerbase.generated.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\triggerbox.generated.h",
+            "c:\\users\\xpc\\documents\\unreal projects\\proyectofallguys\\intermediate\\build\\win64\\unrealeditor\\inc\\proyectofallguys\\finaljuego.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

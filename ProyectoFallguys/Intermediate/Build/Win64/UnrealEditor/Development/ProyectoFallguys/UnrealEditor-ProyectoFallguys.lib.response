@@ -1,0 +1,19 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-ProyectoFallguys.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\XPC\Documents\Unreal Projects\ProyectoFallguys\Intermediate\Build\Win64\ProyectoFallguysEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\XPC\Documents\Unreal Projects\ProyectoFallguys\Intermediate\Build\Win64\UnrealEditor\Development\ProyectoFallguys\finaljuego.cpp.obj"
+"C:\Users\XPC\Documents\Unreal Projects\ProyectoFallguys\Intermediate\Build\Win64\UnrealEditor\Development\ProyectoFallguys\ProyectoFallguys.cpp.obj"
+"C:\Users\XPC\Documents\Unreal Projects\ProyectoFallguys\Intermediate\Build\Win64\UnrealEditor\Development\ProyectoFallguys\ProyectoFallguysCharacter.cpp.obj"
+"C:\Users\XPC\Documents\Unreal Projects\ProyectoFallguys\Intermediate\Build\Win64\UnrealEditor\Development\ProyectoFallguys\ProyectoFallguysGameMode.cpp.obj"
+"C:\Users\XPC\Documents\Unreal Projects\ProyectoFallguys\Intermediate\Build\Win64\UnrealEditor\Development\ProyectoFallguys\finaljuego.gen.cpp.obj"
+"C:\Users\XPC\Documents\Unreal Projects\ProyectoFallguys\Intermediate\Build\Win64\UnrealEditor\Development\ProyectoFallguys\ProyectoFallguys.init.gen.cpp.obj"
+"C:\Users\XPC\Documents\Unreal Projects\ProyectoFallguys\Intermediate\Build\Win64\UnrealEditor\Development\ProyectoFallguys\ProyectoFallguysCharacter.gen.cpp.obj"
+"C:\Users\XPC\Documents\Unreal Projects\ProyectoFallguys\Intermediate\Build\Win64\UnrealEditor\Development\ProyectoFallguys\ProyectoFallguysGameMode.gen.cpp.obj"
+"C:\Users\XPC\Documents\Unreal Projects\ProyectoFallguys\Intermediate\Build\Win64\UnrealEditor\Development\ProyectoFallguys\Default.rc2.res"
+/OUT:"C:\Users\XPC\Documents\Unreal Projects\ProyectoFallguys\Intermediate\Build\Win64\UnrealEditor\Development\ProyectoFallguys\UnrealEditor-ProyectoFallguys.lib"
