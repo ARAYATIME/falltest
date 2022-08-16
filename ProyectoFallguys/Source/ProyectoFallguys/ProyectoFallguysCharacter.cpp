@@ -107,6 +107,11 @@ void AProyectoFallguysCharacter::Walk()
 	GetCharacterMovement()->MaxWalkSpeed = WalkingSpeed;
 }
 
+void AProyectoFallguysCharacter::TakeDamage(int Damage)
+{
+	Health -= Damage;
+}
+
 void AProyectoFallguysCharacter::TouchStarted(ETouchIndex::Type FingerIndex, FVector Location)
 {
 	Jump();
