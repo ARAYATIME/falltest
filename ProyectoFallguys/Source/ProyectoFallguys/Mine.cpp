@@ -50,10 +50,12 @@ void AMine::Explode()
 		Player->TakeDamage(Damage);
 
 		// Add impulse force on explosion
-		MineMesh->SetSimulatePhysics(true);
-		MineSphereComponent->SetSimulatePhysics(true);
-		Player->GetMesh()->SetSimulatePhysics(true);
-		Player->GetMesh()->AddImpulse(Player->GetFollowCamera()->GetForwardVector() * ImpulseForce * MineMesh->GetMass());
+		//MineMesh->SetSimulatePhysics(true);
+		//MineSphereComponent->SetSimulatePhysics(true);
+		//Player->GetMesh()->SetSimulatePhysics(true);
+		//Player->GetMesh()->AddImpulse(Player->GetFollowCamera()->GetForwardVector() * ImpulseForce * MineMesh->GetMass());
+
+		Player->LaunchCharacter(Player->GetActorRotation().Vector() * 10000.f, true, true);
 
 		// Effects
 		UGameplayStatics::PlaySoundAtLocation(GetWorld(), MineExplosionSoundCue, this->GetActorLocation());
