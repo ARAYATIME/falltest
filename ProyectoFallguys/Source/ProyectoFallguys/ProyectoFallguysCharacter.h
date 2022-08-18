@@ -80,10 +80,16 @@ public:
 	UFUNCTION()
 		void Walk();
 
+	UFUNCTION()
+	void TakeDamage(int Damage);
+
 	UPROPERTY(EditAnywhere)
 		float WalkingSpeed;
 
 	UPROPERTY(EditAnywhere)
 		float RunningSpeed;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
+	float Health = 100;
 };
 
