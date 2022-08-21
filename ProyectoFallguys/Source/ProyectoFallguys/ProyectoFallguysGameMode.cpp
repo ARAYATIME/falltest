@@ -13,3 +13,10 @@ AProyectoFallguysGameMode::AProyectoFallguysGameMode()
 		DefaultPawnClass = PlayerPawnBPClass.Class;
 	}
 }
+
+void AProyectoFallguysGameMode::Tick(float DeltaTime)
+{
+	Super::Tick(DeltaTime);
+
+	CountdownTime = MatchTime - DeltaTime;
+}
