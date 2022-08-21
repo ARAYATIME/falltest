@@ -91,5 +91,11 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
 	float Health = 100;
+
+	FVector LastCheckPoint;
+
+	UFUNCTION()
+	void TeleportToLocation();
+
 };
 

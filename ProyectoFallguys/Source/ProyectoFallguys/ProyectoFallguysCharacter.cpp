@@ -112,6 +112,11 @@ void AProyectoFallguysCharacter::TakeDamage(int Damage)
 	Health -= Damage;
 }
 
+void AProyectoFallguysCharacter::TeleportToLocation()
+{
+	SetActorLocation(LastCheckPoint);
+}
+
 void AProyectoFallguysCharacter::TouchStarted(ETouchIndex::Type FingerIndex, FVector Location)
 {
 	Jump();
