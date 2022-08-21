@@ -23,7 +23,7 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
-	UPROPERTY()
+	UPROPERTY(EditAnywhere)
 		class UBoxComponent* CollisionBox;
 
 	UFUNCTION()

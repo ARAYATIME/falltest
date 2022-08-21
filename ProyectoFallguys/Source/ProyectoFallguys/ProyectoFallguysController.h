@@ -32,4 +32,7 @@ private:
 
 	UPROPERTY()
 	class UMyFallguysOverlay* MyFallguysOverlay;
+
+	UPROPERTY(EditAnywhere)
+	FName LevelToLoad;
 };

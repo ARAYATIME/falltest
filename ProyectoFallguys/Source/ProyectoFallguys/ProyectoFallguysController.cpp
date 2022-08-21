@@ -52,6 +52,8 @@ void AProyectoFallguysController::SetHUDMatchCountdown(float CountdownTime)
 		{
 			CountdownText = "Game Over";
 			MyFallGuysHUD->MyFallguysOverlay->MatchCountdownText->SetText(FText::FromString(CountdownText));
+			UGameplayStatics::OpenLevel(GetWorld(), LevelToLoad);
+
 		}
 		else
 		{
