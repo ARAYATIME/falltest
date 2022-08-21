@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "ProyectoFallguys",
-			"Path": "C:\\Users\\isach\\source\\repos\\IsaacXB\\falltest\\ProyectoFallguys\\Source\\ProyectoFallguys.Target.cs",
+			"Path": "C:\\Users\\XPC\\Documents\\GitHub\\falltest\\ProyectoFallguys\\Source\\ProyectoFallguys.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "ProyectoFallguysEditor",
-			"Path": "C:\\Users\\isach\\source\\repos\\IsaacXB\\falltest\\ProyectoFallguys\\Source\\ProyectoFallguysEditor.Target.cs",
+			"Path": "C:\\Users\\XPC\\Documents\\GitHub\\falltest\\ProyectoFallguys\\Source\\ProyectoFallguysEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]
